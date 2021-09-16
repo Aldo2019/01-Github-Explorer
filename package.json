@@ -1,6 +1,6 @@
 {
-  "name": "github-explorer",
-  "version": "1.0.0",
+  "name": "my-awesome-package",
+  "version": "1.22.11",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
@@ -11,5 +11,8 @@
     "@babel/cli": "^7.15.4",
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6"
-  }
+  },
+  "description": "The best package you will ever find.",
+  "repository": "https://github.com/Aldo2019/01-Github-Explorer.git",
+  "author": "Yarn Contributor"
 }

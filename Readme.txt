@@ -315,6 +315,10 @@ remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), 625 bytes | 41.00 KiB/s, done.
 
 
+Agora efetuamos um teste de conversão com o comando: yarn babel src/index.js --out-file dist/bundle.js
+para isto usa-se a Cli (interface de linha de comado) do babel, a pasta de destino é a dist (distribuição)
+para um arquivo bundle.js ( um tipo de arquivo padrão do babel).
+
 
 
 
