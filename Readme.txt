@@ -317,7 +317,32 @@ Unpacking objects: 100% (3/3), 625 bytes | 41.00 KiB/s, done.
 
 Agora efetuamos um teste de conversão com o comando: yarn babel src/index.js --out-file dist/bundle.js
 para isto usa-se a Cli (interface de linha de comado) do babel, a pasta de destino é a dist (distribuição)
-para um arquivo bundle.js ( um tipo de arquivo padrão do babel).
+para um arquivo bundle.js ( um tipo de arquivo padrão do babel). error!!!!
+
+Como o Babel não entende o HTML dentro do React, devemos instalar: yarn add @babel/preset-react -D ;
+assim poderemos converter o HTML dentro React. Exemplo:
+
+PS F:\Ignite\Aulas\01-github-explorer> yarn add @babel/preset-react -D
+yarn add v1.19.1
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@2.3.2: The platform "win32" is incompatible with this module.
+info "fsevents@2.3.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 5 new dependencies.
+info Direct dependencies
+└─ @babel/preset-react@7.14.5
+info All dependencies
+├─ @babel/plugin-syntax-jsx@7.14.5
+├─ @babel/plugin-transform-react-display-name@7.15.1
+├─ @babel/plugin-transform-react-jsx-development@7.14.5
+├─ @babel/plugin-transform-react-pure-annotations@7.14.5
+└─ @babel/preset-react@7.14.5
+Done in 6.04s.
+
+Agora é possível entender o código react com o html, utilizado anteriormente.
 
 
 
