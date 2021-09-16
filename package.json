@@ -10,7 +10,8 @@
   "devDependencies": {
     "@babel/cli": "^7.15.4",
     "@babel/core": "^7.15.5",
-    "@babel/preset-env": "^7.15.6"
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5"
   },
   "description": "The best package you will ever find.",
   "repository": "https://github.com/Aldo2019/01-Github-Explorer.git",
